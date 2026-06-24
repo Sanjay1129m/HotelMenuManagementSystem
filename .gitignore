@@ -1,4 +1,18 @@
+# OS files
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
 
+# Local environment / secrets
+config.local.php
+.env
+
+# PHP / web server artifacts
+/tmp/
+/vendor/
+
+# IDE files
+.vscode/
+.idea/
